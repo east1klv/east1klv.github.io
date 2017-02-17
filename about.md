@@ -1,15 +1,15 @@
 ---
 layout: page
-title: About
+title: О команде
 permalink: /about/
 ---
 
-Some information about you!
+Немного информации о команде!
 
-### More Information
+### Команда
 
-A place to include any other types of information that you'd like to include about yourself.
+Мы небольшая группа независимых разработчиков, вышедших из мира моддинга игры Street Legal Racing: Redline. Мы занимаемся разработкой гоночной игры с широкими возможностями тюнинга и поведением автомобиля, приближенным к реальным. На данный момент команда состоит из 5 человек.
 
-### Contact me
+---### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+---[email@domain.com](mailto:email@domain.com)
