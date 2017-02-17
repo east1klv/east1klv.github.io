@@ -3,7 +3,7 @@ layout: post
 title: Объединение команд
 ---
 
-<img src="/images/news/m_MXNDrx7_M.jpg">
+<img src="/images/news/2015-3-7/m_MXNDrx7_M.jpg">
 Некоторое время назад 2 группы разработчиков буквально нашли друг друга. 
 Два разных проекта (Project R и J-performance) с общими идеями объединяются. 
 Чтобы внести ясность: 
