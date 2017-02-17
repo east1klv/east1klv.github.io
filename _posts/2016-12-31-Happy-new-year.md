@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Обновленная физика!
+title: С новым 2017 годом!
 ---
 
 <img src="/images/news/2016-12-31/2oSMXfQBg5k.jpg">

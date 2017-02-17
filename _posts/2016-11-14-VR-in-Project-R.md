@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Обновленная физика!
+title: Нужен VR?
 ---
 
 <img src="/images/news/2016-11-14/jY_N-c1V3V0.jpg">
