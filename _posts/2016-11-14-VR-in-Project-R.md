@@ -7,5 +7,5 @@ title: Нужен VR?
 Небольшой опрос о необходимости VR в нашем проекте.
 <div id="vk_poll"></div>
 <script type="text/javascript">
-VK.Widgets.Poll("vk_poll", "244606243_8b891fc63d4ef2e2d1");
+VK.Widgets.Poll("vk_poll", {width: 720}, "244606243_8b891fc63d4ef2e2d1");
 </script>
