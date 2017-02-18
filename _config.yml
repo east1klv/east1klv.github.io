@@ -40,6 +40,10 @@ disqus:
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
 google_analytics:
 
+# The number should be the maximum number of Posts you’d like to be displayed per-page
+paginate: 5
+
+
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
 # Used for Sitemap.xml and your RSS feed
 url: http://j-performance.org
