@@ -5,7 +5,7 @@ permalink: /projectr/
 published: true
 ---
 
-<img src="/images/logo/ileb64KuQ0g.jpg" align="right">
+<img style="float: right;" src="{{site.baseurl}}/images/logo/ileb64KuQ0g.jp" width="500" height="500" >
 - **Название проекта:** Project R
 - **Жанр:** Гоночный симулятор 
 - **Разработчик:** J-Performance 
