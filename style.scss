@@ -163,8 +163,18 @@ img {
 }
 
 .vk-width-responsive { 
-	width: auto !important;
+  position: relative; 
+  width: auto !important;
 } 
+.vk-width-responsive iframe, 
+.vk-width-responsive object, 
+.vk-width-responsive embed {
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  width: 100% !important;
+  height: 100% !important; 
+}
 
 /*********************/
 /* LAYOUT / SECTIONS */
