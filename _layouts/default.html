@@ -40,7 +40,8 @@
     <div id="main" role="main" class="container">
       {{ content }}
     </div>
-
+{% for post in paginator.posts %}
+{% for post in paginated.posts %}
     <div class="wrapper-footer">
       <div class="container">
         <footer class="footer">
