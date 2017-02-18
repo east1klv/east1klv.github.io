@@ -19,7 +19,7 @@ layout: default
 
 <!-- Pagination links -->
 <div class="pagination">
-  {% if paginator.previous_page %}
+  {% if paginator.previous_page < 2 %}
     <a href="{{ paginator.previous_page_path }}" class="previous">Назад</a>
   {% else %}
     <a href="/" class="previous">Главная</a>
