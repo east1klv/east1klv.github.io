@@ -7,6 +7,6 @@ title: Даешь жизнь среднячку?
 <div class="width-responsive">
 <div id="vk_poll"></div>
 <script type="text/javascript">
-VK.Widgets.Poll("vk_poll", {width: 300}, "201838734_3bfaa29ac775d30281");
+VK.Widgets.Poll("vk_poll", {width: 720}, "201838734_3bfaa29ac775d30281");
 </script>
 </div>

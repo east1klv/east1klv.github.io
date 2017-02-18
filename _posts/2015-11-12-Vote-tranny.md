@@ -7,6 +7,6 @@ title: Нужна ли такая фишка или нет?
 <div class="width-responsive">
 <div id="vk_poll"></div>
 <script type="text/javascript">
-VK.Widgets.Poll("vk_poll", {width: 300}, "201837686_09ed2f2848eee54321");
+VK.Widgets.Poll("vk_poll", {width: 720}, "201837686_09ed2f2848eee54321");
 </script>
 </div>
