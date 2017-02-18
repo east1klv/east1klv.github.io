@@ -5,7 +5,7 @@ permalink: /projectr/
 published: true
 ---
 
-<img style="float: right;" src="{{site.baseurl}}/images/logo/ileb64KuQ0g.jpg" width="180" height="180" >
+<img style="float: right;" src="{{site.baseurl}}/images/logo/ileb64KuQ0g.jpg" width="300" height="180" >
 
 - **Название проекта:** Project R
 - **Жанр:** Гоночный симулятор 
