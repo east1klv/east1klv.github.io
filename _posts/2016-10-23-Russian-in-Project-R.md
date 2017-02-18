@@ -4,5 +4,5 @@ title: Русский язык в Project R
 ---
 
 Достаточно часто встречающийся вопрос в обсуждении и комментариях к новостям - "А будет ли русский язык?". Ну так вот, русский язык обязательно будет. В начале в игре будут присутствовать только русский и английский языки. В последующем участникам сообщества будет предложено внести свою лепту в разработку игры и помочь с переводом проекта на другой язык.
-<img src="/images/news/2016-10-23/114ladQtj0w.jpg">
-<img src="/images/news/2016-10-23/gpXugYcjrkg.jpg">
+<a href="{{site.baseurl}}/images/news/2016-10-23/114ladQtj0w.jpg" target="_blank"><img src="/images/news/2016-10-23/114ladQtj0w.jpg"></a>
+<a href="{{site.baseurl}}/images/news/2016-10-23/gpXugYcjrkg.jpg" target="_blank"><img src="/images/news/2016-10-23/gpXugYcjrkg.jpg"></a>
