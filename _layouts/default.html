@@ -29,9 +29,9 @@
           </div>
 
           <nav>
-            <a href="{{ site.baseurl }}/">Блог</a>
-			<a href="{{ site.baseurl }}/about_projectr">О Project R</a>
-            <a href="{{ site.baseurl }}/about">О нас</a>
+            <a href="{{ site.baseurl }}/" {% if page.url == "/" %}class="active"{% endif %}>Главная</a>
+			<a href="{{ site.baseurl }}/projectr" {% if page.url == "/projectr" %}class="active"{% endif %}>О Project R</a>
+            <a href="{{ site.baseurl }}/about" {% if page.url == "/about" %}class="active"{% endif %}>О нас</a>
           </nav>
         </header>
       </div>

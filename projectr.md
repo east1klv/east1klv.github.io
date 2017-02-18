@@ -1,7 +1,7 @@
 ---
 layout: page
 title: О Project R
-permalink: /about_projectr/
+permalink: /projectr/
 ---
 
 ### Project R
