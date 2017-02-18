@@ -14,32 +14,20 @@ layout: default
 
       <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Далее</a>
     </article>
-	{% endfor %}
+{% endfor %}
 </div>
 
-
-{% if paginator.total_pages > 1 %}
+<!-- Pagination links -->
 <div class="pagination">
   {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a>
+    <a href="{{ paginator.previous_page_path }}" class="previous">Назад</a>
   {% else %}
-    <span>&laquo; Prev</span>
+    <a href="/" class="previous">Главная</a>
   {% endif %}
-
-  {% for page in (1..paginator.total_pages) %}
-    {% if page == paginator.page %}
-      <em>{{ page }}</em>
-    {% elsif page == 1 %}
-      <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>
-    {% else %}
-      <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
-    {% endif %}
-  {% endfor %}
-
+  <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
   {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &raquo;</a>
+    <a href="{{ paginator.next_page_path }}" class="next">Вперед</a>
   {% else %}
-    <span>Next &raquo;</span>
+    <span class="next "></span>
   {% endif %}
 </div>
-{% endif %}
