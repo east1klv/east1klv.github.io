@@ -2,12 +2,11 @@
 layout: page
 title: О команде
 permalink: /about/
+published: true
 ---
+
+![]({{site.baseurl}}/images/logo/logo.png)
 
 ### Команда
 
 Мы небольшая группа независимых разработчиков, вышедших из мира моддинга игры Street Legal Racing: Redline. Мы занимаемся разработкой гоночной игры под названием Project R с широкими возможностями тюнинга и поведением автомобиля, приближенным к реальным. На данный момент команда состоит из 5 человек.
-
-<!-- ### Contact me -->
-
-<!-- [email@domain.com](mailto:email@domain.com) -->
