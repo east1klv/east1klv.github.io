@@ -1,40 +1,23 @@
-<div class="home">
+---
+layout: default
+---
 
-  <h1>My blog main page with pagination</h1>
+<div class="posts">
+  {% for post in site.posts %}
+    <article class="post">
 
-  <ul class="posts">
-    {% for post in paginator.posts %}
-      <li>
-        <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
-        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-      </li>
-    {% endfor %}
-  </ul>
-  
-  {% if paginator.total_pages > 1 %}
-<div class="pagination">
-  {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a>
-  {% else %}
-    <span>&laquo; Prev</span>
-  {% endif %}
+      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
 
-  {% for page in (1..paginator.total_pages) %}
-    {% if page == paginator.page %}
-      <em>{{ page }}</em>
-    {% elsif page == 1 %}
-      <a href="{{ '/index.html' | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>
-    {% else %}
-      <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
-    {% endif %}
+      <div class="entry">
+	  {% for post in paginator.posts %}
+	  <li>
+	  <a href="{{ post.url }}">
+        <h3>{{ post.excerpt }}<h3>
+		</li>
+		{% endfor %}
+      </div>
+
+      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Далее</a>
+    </article>
   {% endfor %}
-
-  {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &raquo;</a>
-  {% else %}
-    <span>Next &raquo;</span>
-  {% endif %}
-</div>
-{% endif %}
-
 </div>
