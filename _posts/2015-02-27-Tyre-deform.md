@@ -1,4 +1,6 @@
 ---
+layout: post
+title: Деформация шин
 published: true
 ---
 
