@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 
 ![Project R]({{site.baseurl}}/images/news/2015-02-27WVCcTsQ-1dE.jpg)
