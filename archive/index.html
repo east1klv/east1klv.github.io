@@ -22,7 +22,7 @@ title: Архив
 <div class="pagination">
   {% if paginator.previous_page %}
     <a href="{{ paginator.previous_page_path }}" class="previous">Назад</a>
-  {% elsif paginator.page == 2 %}
+  {% elsif paginator.page = 2 %}
 	<a href="/" class="previous">Главная</a>
   {% else %}
     <a href="/" class="previous">Главная</a>
