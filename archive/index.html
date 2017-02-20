@@ -21,9 +21,11 @@ title: Архив
 <!-- Pagination links -->
 <div class="pagination">
   {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path }}" class="previous">Назад</a>
-  {% elsif paginator.page = 2 %}
-	<a href="/" class="previous">Главная</a>
+    {% if paginator.page == 2 %}
+	  <a href="/" class="previous">Главная</a>
+    {% else %}  
+      <a href="{{ paginator.previous_page_path }}" class="previous">Назад</a>
+	{% endif %}
   {% else %}
     <a href="/" class="previous">Главная</a>
   {% endif %}
