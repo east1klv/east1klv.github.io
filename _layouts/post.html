@@ -4,11 +4,7 @@ layout: default
 
 <article class="post">
   <h1>{{ page.title }}</h1>
-
-  <div class="entry">
-    {{ content }}
-  </div>
-
+  
   <div class="date">
     Опубликовано: {% assign m = page.date | date: "%-m" %}
 				{{ page.date | date: "%-d" }}
@@ -28,6 +24,12 @@ layout: default
 				{% endcase %}
 				{{ page.date | date: "%Y" }}
   </div>
+  
+  <div class="entry">
+    {{ content }}
+  </div>
+
+ 
 
   {% include disqus.html %}
 </article>
