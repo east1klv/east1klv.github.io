@@ -12,6 +12,26 @@ title: Архив
       <div class="entry">
         {{ post.excerpt }}
       </div>
+	  
+	    <div class="date">
+    Опубликовано: {% assign m = post.date | date: "%-m" %}
+				{{ post.date | date: "%-d" }}
+				{% case m %}
+				{% when '1' %}Января
+				{% when '2' %}Февраля
+				{% when '3' %}Марта
+				{% when '4' %}Апреля
+				{% when '5' %}Мая
+				{% when '6' %}Июня
+				{% when '7' %}Июля
+				{% when '8' %}Августа
+				{% when '9' %}Сентября
+				{% when '10' %}Октября
+				{% when '11' %}Ноября
+				{% when '12' %}Декабря
+				{% endcase %}
+				{{ post.date | date: "%Y" }}
+  </div>
 
       <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Далее</a>
     </article>
@@ -19,9 +39,13 @@ title: Архив
 </div>
 <article class="post">
 <!-- Pagination links -->
-
+<div class="pagination">
   {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path }}" class="previous">Назад</a>
+    {% if paginator.page == 2 %}
+	  <a href="/" class="previous">Главная</a>
+    {% else %}  
+      <a href="{{ paginator.previous_page_path }}" class="previous">Назад</a>
+	{% endif %}
   {% else %}
     <a href="/" class="previous">Главная</a>
   {% endif %}
@@ -31,5 +55,5 @@ title: Архив
   {% else %}
     <span class="next "></span>
   {% endif %}
-
+</div>
 </article>
