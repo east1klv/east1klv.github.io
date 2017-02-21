@@ -36,8 +36,8 @@ title: Архив
       <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Далее</a>
     </article>
 {% endfor %}
-</div>
 
+    <article class="post">
 <!-- Pagination links -->
 <div class="pagination">
   {% if paginator.previous_page %}
@@ -55,4 +55,6 @@ title: Архив
   {% else %}
     <span class="next "></span>
   {% endif %}
+</div>
+    </article>
 </div>
