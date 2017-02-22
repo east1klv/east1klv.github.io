@@ -345,8 +345,13 @@ footer {
 }
 
 .copyright {
-  color: $gray;
-  font-size: 15px;
+  margin-top: 1em;
+
+  
+  .copyright-text {
+    color: $gray;
+    font-size: 15px;
+  }
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
