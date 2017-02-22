@@ -37,25 +37,25 @@ title: Архив
     </article>
 {% endfor %}
 
-    <article class="nav-archive">
-		<!-- Pagination links -->
-
-		<div class="pagination">
-		{% if paginator.previous_page %}
-			{% if paginator.page == 2 %}
-			<a href="/" class="previous">Главная</a>
-			{% else %}  
-			<a href="{{ paginator.previous_page_path }}" class="previous">Назад</a>
-			{% endif %}
-		{% else %}
-			<a href="/" class="previous">Главная</a>
-		{% endif %}
-		<span class="page_number ">Страница: {{ paginator.page }} из {{ paginator.total_pages }}</span>
-		{% if paginator.next_page %}
-			<a href="{{ paginator.next_page_path }}" class="next">Вперед</a>
-		{% else %}
-			<span class="next "></span>
-		{% endif %}
-		</div>
+    <article class="post">
+<!-- Pagination links -->
+<h1></h1>
+<div class="pagination">
+  {% if paginator.previous_page %}
+    {% if paginator.page == 2 %}
+	  <a href="/" class="previous">Главная</a>
+    {% else %}  
+      <a href="{{ paginator.previous_page_path }}" class="previous">Назад</a>
+	{% endif %}
+  {% else %}
+    <a href="/" class="previous">Главная</a>
+  {% endif %}
+  <span class="page_number ">Страница: {{ paginator.page }} из {{ paginator.total_pages }}</span>
+  {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path }}" class="next">Вперед</a>
+  {% else %}
+    <span class="next "></span>
+  {% endif %}
+</div>
     </article>
 </div>
