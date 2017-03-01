@@ -1,4 +1,0 @@
-User-Agent: *
-Allow: /
-sitemap: http://j-performance.org/sitemap.xml
-Host: j-performance.org
