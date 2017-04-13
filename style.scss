@@ -81,6 +81,10 @@ a.active {
   color: $blue;
 }
 
+a:hover {
+opacity: 0.5;
+}
+
 ul, ol {
   margin: 15px 0;
   padding-left: 30px;
