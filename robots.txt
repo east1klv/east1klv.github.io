@@ -1,4 +1,5 @@
 User-Agent: *
 Allow: /
+Disallow: /project_docs/
 sitemap: http://j-performance.org/sitemap.xml
 Host: j-performance.org
